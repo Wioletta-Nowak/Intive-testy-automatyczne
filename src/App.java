@@ -35,8 +35,8 @@ public class App {
         cookieStop.click();
         login.click();
 
-        String actualUrl = BASE_URL + EXPECTED_URL;
-        String expectedUrl = driver.getCurrentUrl();
+        String expectedUrl = BASE_URL + EXPECTED_URL;
+        String actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(expectedUrl, actualUrl);
 
         driver.quit();
