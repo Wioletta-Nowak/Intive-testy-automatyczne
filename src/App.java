@@ -6,7 +6,7 @@ import org.junit.Assert;
 
 public class App {
     private static final String WEBDRIVER_NAME = "webdriver.chrome.driver";
-    private static final String WEBDRIVER_PATH = "lib/chromedriver.exe";
+    private static final String WEBDRIVER_PATH = "chromedriver.exe";
     private static final String BASE_URL = "https://www.phptravels.net";
     private static final String URL = "/login";
     private static final String EMAIL_ELEMENT_NAME = "email";
